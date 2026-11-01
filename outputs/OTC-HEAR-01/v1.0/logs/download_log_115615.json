@@ -1,0 +1,380 @@
+[
+  {
+    "file": "2019_Adult-codebook.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2019/Adult-codebook.pdf",
+    "at_utc": "2026-10-30T11:56:00.986078+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 3214744,
+    "sha256": "b110ac796cd223a6ebf8de5f70ab4138eed0069164253105f1b6579351e2d710",
+    "state": "OK"
+  },
+  {
+    "file": "2019_Adult-summary.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2019/Adult-summary.pdf",
+    "at_utc": "2026-10-30T11:56:00.986463+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 532433,
+    "sha256": "613e40b4537143db59827c389e4c60e520f3251441c80b89900b9e1c8ea4ce67",
+    "state": "OK"
+  },
+  {
+    "file": "2019_srvydesc-508.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2019/srvydesc-508.pdf",
+    "at_utc": "2026-10-30T11:56:00.986574+00:00",
+    "http_status": 200,
+    "bytes": 1492982,
+    "sha256": "be035f7320c88625969fca486f4fa8df978d9f9b7a151937b7cba26d5311afa7",
+    "state": "OK"
+  },
+  {
+    "file": "2019_Adultinc-summary.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2019/Adultinc-summary.pdf",
+    "at_utc": "2026-10-30T11:56:00.986835+00:00",
+    "http_status": 200,
+    "bytes": 114094,
+    "sha256": "0d6c886d0bba7f65c5e65ea9dd318f419868f3a93afb42938e460472b5d09a50",
+    "state": "OK"
+  },
+  {
+    "file": "2019_NHIS2019-imputation-techdoc-508.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2019/NHIS2019-imputation-techdoc-508.pdf",
+    "at_utc": "2026-10-30T11:56:00.987554+00:00",
+    "http_status": 200,
+    "bytes": 380507,
+    "sha256": "5f0cb2c3c993903a2ef75d79494c5bbe086039c5026b87adceb19f0bdfcf291e",
+    "state": "OK"
+  },
+  {
+    "file": "2019_index.html",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2019/",
+    "at_utc": "2026-10-30T11:56:00.988434+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 3633,
+    "sha256": "f6be0eed9e15d4b1ae55a8422700706db10980eb3219c076d1925c0080734976",
+    "state": "OK"
+  },
+  {
+    "file": "2020_Adult-codebook.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/Adult-codebook.pdf",
+    "at_utc": "2026-10-30T11:56:00.988513+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 2118199,
+    "sha256": "2fa74451239e279d1c69ebed590b42719255f16790072fc448e99e1f68efd324",
+    "state": "OK"
+  },
+  {
+    "file": "2020_Adult-summary.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/Adult-summary.pdf",
+    "at_utc": "2026-10-30T11:56:00.989378+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 320214,
+    "sha256": "f3dbc7b6dd4376736ea708223b9d5fd2a2e97e59cb70ea69ec0a3b0d1e837331",
+    "state": "OK"
+  },
+  {
+    "file": "2020_srvydesc-508.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/srvydesc-508.pdf",
+    "at_utc": "2026-10-30T11:56:00.989556+00:00",
+    "http_status": 200,
+    "bytes": 2764536,
+    "sha256": "9d707334254ed422103bd1513df88d28fb67a61a1f271e7c6f38e61c341e28f7",
+    "state": "OK"
+  },
+  {
+    "file": "2020_Adultinc-summary.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/Adultinc-summary.pdf",
+    "at_utc": "2026-10-30T11:56:02.885582+00:00",
+    "http_status": 200,
+    "bytes": 110105,
+    "sha256": "74b556bea7b1f6f936f4035062f334802e42302703756c978ef9afa8ec22adeb",
+    "state": "OK"
+  },
+  {
+    "file": "2020_NHIS2020-imputation-techdoc-508.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/NHIS2020-imputation-techdoc-508.pdf",
+    "at_utc": "2026-10-30T11:56:03.136674+00:00",
+    "http_status": 200,
+    "bytes": 437560,
+    "sha256": "379ab4c14ea4e1fcd2e4fb7da29f514ac7a57884b32f6921b88648c6cd606105",
+    "state": "OK"
+  },
+  {
+    "file": "2020_index.html",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/",
+    "at_utc": "2026-10-30T11:56:03.740441+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 4263,
+    "sha256": "82c1895eaad148fed351450ee3bbb85faa4e3d82a53309997811edc697c599cf",
+    "state": "OK"
+  },
+  {
+    "file": "2021_Adult-codebook.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2021/Adult-codebook.pdf",
+    "at_utc": "2026-10-30T11:56:03.740588+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 2513945,
+    "sha256": "97f0af9fb8093731aec0bca6c148467a04fbb2a5e8b896428a8292e89e16541a",
+    "state": "OK"
+  },
+  {
+    "file": "2021_Adult-summary.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2021/Adult-summary.pdf",
+    "at_utc": "2026-10-30T11:56:03.742274+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 311579,
+    "sha256": "831e9cad888ca821d54d28ca7907d3bcf45fb94de3544996806979eb1534d8af",
+    "state": "OK"
+  },
+  {
+    "file": "2021_srvydesc-508.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2021/srvydesc-508.pdf",
+    "at_utc": "2026-10-30T11:56:03.742528+00:00",
+    "http_status": 200,
+    "bytes": 1839456,
+    "sha256": "5c46bbde75a06bc81014e1fee5a18cf71dbdaaf19477abc12d9b852a028af9a3",
+    "state": "OK"
+  },
+  {
+    "file": "2021_Adultinc-summary.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2021/Adultinc-summary.pdf",
+    "at_utc": "2026-10-30T11:56:04.481815+00:00",
+    "http_status": 200,
+    "bytes": 104220,
+    "sha256": "d38b0baca6edf7971fbdd5381302e16a9114ca6ee09f68a7beb789ff5e9331fb",
+    "state": "OK"
+  },
+  {
+    "file": "2021_NHIS2021-imputation-techdoc-508.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2021/NHIS2021-imputation-techdoc-508.pdf",
+    "at_utc": "2026-10-30T11:56:04.862066+00:00",
+    "http_status": 200,
+    "bytes": 640430,
+    "sha256": "5100213bca4635abafee2fad93ed65e4c2c311a0d824bacaaae59df87cb4e31c",
+    "state": "OK"
+  },
+  {
+    "file": "2021_index.html",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2021/",
+    "at_utc": "2026-10-30T11:56:05.518752+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 3485,
+    "sha256": "2d30c42204983f9f16bcfd70e2a442a10802bcc1dd94544a15fcb178d368f0bd",
+    "state": "OK"
+  },
+  {
+    "file": "2022_Adult-codebook.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/Adult-codebook.pdf",
+    "at_utc": "2026-10-30T11:56:05.519032+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 20953050,
+    "sha256": "e8dca19a0df8bf9fe30c7c0d44d7570c385f49b088921a2a5676e50037aaef0e",
+    "state": "OK"
+  },
+  {
+    "file": "2022_Adult-summary.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/Adult-summary.pdf",
+    "at_utc": "2026-10-30T11:56:05.530085+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 393019,
+    "sha256": "c2ff21cf8d72f427a9aa914c0f5b683bebea0c543f934b8e16430922919b6068",
+    "state": "OK"
+  },
+  {
+    "file": "2022_srvydesc-508.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/srvydesc-508.pdf",
+    "at_utc": "2026-10-30T11:56:05.530362+00:00",
+    "http_status": 200,
+    "bytes": 1979636,
+    "sha256": "d97a00b69c974fcccd446f309d1968b0c5bcba1706497d3a3f56882b69bb8e03",
+    "state": "OK"
+  },
+  {
+    "file": "2022_Adultinc-summary.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/Adultinc-summary.pdf",
+    "at_utc": "2026-10-30T11:56:06.287235+00:00",
+    "http_status": 200,
+    "bytes": 120625,
+    "sha256": "e29830cbdb2ad491fe16808fed8c350518c2a5471c60159a6bdf14bcdab8e388",
+    "state": "OK"
+  },
+  {
+    "file": "2022_NHIS2022-imputation-techdoc-508.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/NHIS2022-imputation-techdoc-508.pdf",
+    "at_utc": "2026-10-30T11:56:06.977004+00:00",
+    "http_status": 200,
+    "bytes": 794095,
+    "sha256": "2d8463ec11bf8533ad3c94d866aa26c258d0131f5159f860c20e6852cb5a97e5",
+    "state": "OK"
+  },
+  {
+    "file": "2022_index.html",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/",
+    "at_utc": "2026-10-30T11:56:08.177479+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 3155,
+    "sha256": "1e779906ddcf5db3d9d49b70de6af0bb2aacb6a608dcee50573fb94b45277db0",
+    "state": "OK"
+  },
+  {
+    "file": "2023_Adult-codebook.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/Adult-codebook.pdf",
+    "at_utc": "2026-10-30T11:56:08.177570+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 2218147,
+    "sha256": "0afacb59330f1714363db9cee6ee24dbd2a4e9a1edffbb66f8ee9c10b8ba969d",
+    "state": "OK"
+  },
+  {
+    "file": "2023_Adult-summary.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/Adult-summary.pdf",
+    "at_utc": "2026-10-30T11:56:08.178485+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 365390,
+    "sha256": "1fa0b8f36865e2f9fbddca131a2c156f1b8563b92b2113ac577310d8c0118936",
+    "state": "OK"
+  },
+  {
+    "file": "2023_srvydesc-508.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/srvydesc-508.pdf",
+    "at_utc": "2026-10-30T11:56:08.178679+00:00",
+    "http_status": 200,
+    "bytes": 4167884,
+    "sha256": "def9a6b8de30fa3af457deb7e2225a34b29d4b4d56e4725ea840cbe2c5696b9f",
+    "state": "OK"
+  },
+  {
+    "file": "2023_Adultinc-summary.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/Adultinc-summary.pdf",
+    "at_utc": "2026-10-30T11:56:08.329751+00:00",
+    "http_status": 200,
+    "bytes": 106428,
+    "sha256": "b65e391a25432378fbedf91a852a57fd723d6e095091046401b3902bad11d1b4",
+    "state": "OK"
+  },
+  {
+    "file": "2023_NHIS2023-imputation-techdoc-508.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/NHIS2023-imputation-techdoc-508.pdf",
+    "at_utc": "2026-10-30T11:56:08.579796+00:00",
+    "http_status": 200,
+    "bytes": 750439,
+    "sha256": "1a8954f8724cc305305d4c3378e88b458c3c9cfc18707a204f909495d5a39a6b",
+    "state": "OK"
+  },
+  {
+    "file": "2023_index.html",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/",
+    "at_utc": "2026-10-30T11:56:09.834500+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 3389,
+    "sha256": "1d0b7c31d6c6210bdded2bba029c84f34b307d02d2a2ba98729aa98383cfd0a0",
+    "state": "OK"
+  },
+  {
+    "file": "2024_Adult-codebook.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2024/Adult-codebook.pdf",
+    "at_utc": "2026-10-30T11:56:09.834659+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 18604401,
+    "sha256": "e8d3915d9a0f3fbc15e6af3d381d502005cf8368c62adbc33b514366eee904df",
+    "state": "OK"
+  },
+  {
+    "file": "2024_Adult-summary.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2024/Adult-summary.pdf",
+    "at_utc": "2026-10-30T11:56:09.842837+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 363169,
+    "sha256": "241396c3446446541b17454660c2e0d827d5d4bd6327e0d3b53d29e9d2840191",
+    "state": "OK"
+  },
+  {
+    "file": "2024_srvydesc-508.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2024/srvydesc-508.pdf",
+    "at_utc": "2026-10-30T11:56:09.843103+00:00",
+    "http_status": 200,
+    "bytes": 1980907,
+    "sha256": "d8460727fadc112385e974bacd429930c3558b10f568e5251d150ce9b7b827d9",
+    "state": "OK"
+  },
+  {
+    "file": "2024_Adultinc-summary.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2024/Adultinc-summary.pdf",
+    "at_utc": "2026-10-30T11:56:10.242991+00:00",
+    "http_status": 200,
+    "bytes": 107188,
+    "sha256": "ae3ede038343da3cf97e126652ea0cd8b6d313fd232df25ae856b94d01e95888",
+    "state": "OK"
+  },
+  {
+    "file": "2024_NHIS2024-imputation-techdoc-508.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2024/NHIS2024-imputation-techdoc-508.pdf",
+    "at_utc": "2026-10-30T11:56:11.378375+00:00",
+    "http_status": 200,
+    "bytes": 934495,
+    "sha256": "5fa0044e24911ce8dc70ee60806af08e330d7867ce1618de6251e03b5dc4d26b",
+    "state": "OK"
+  },
+  {
+    "file": "2024_index.html",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2024/",
+    "at_utc": "2026-10-30T11:56:11.865938+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 3351,
+    "sha256": "87fffe5d6788639f793c533bca046501c2a56ee355e2d151a6d219e76c2c5cc0",
+    "state": "OK"
+  },
+  {
+    "file": "2025_Adult-codebook.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/Adult-codebook.pdf",
+    "at_utc": "2026-10-30T11:56:11.866108+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 16599434,
+    "sha256": "f0c881af2859dd1f768141df6f6b7b5f966d3fc5c6cc6688fe30224027c61e91",
+    "state": "OK"
+  },
+  {
+    "file": "2025_Adult-summary.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/Adult-summary.pdf",
+    "at_utc": "2026-10-30T11:56:11.872661+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 1827491,
+    "sha256": "2673e5f3c0df8328eed2e2b7a2699d20b86594323202071611dfb883538b08c9",
+    "state": "OK"
+  },
+  {
+    "file": "2025_srvydesc-508.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/srvydesc-508.pdf",
+    "at_utc": "2026-10-30T11:56:11.873595+00:00",
+    "http_status": 200,
+    "bytes": 2060384,
+    "sha256": "d8a8cc998bcdef46d4408eaaf275373702131042f49efad9b28e1c87dcf2106c",
+    "state": "OK"
+  },
+  {
+    "file": "2025_Adultinc-summary.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/Adultinc-summary.pdf",
+    "at_utc": "2026-10-30T11:56:12.204939+00:00",
+    "http_status": 200,
+    "bytes": 151252,
+    "sha256": "c6edf4900e14e889f9c85aab9a6b90bb6df278c5a925f212ca413bf4e0dbe387",
+    "state": "OK"
+  },
+  {
+    "file": "2025_NHIS2025-imputation-techdoc-508.pdf",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/NHIS2025-imputation-techdoc-508.pdf",
+    "at_utc": "2026-10-30T11:56:13.240688+00:00",
+    "http_status": 200,
+    "bytes": 1201158,
+    "sha256": "199153353ec470fecc491512f1d76a2c9f920e89385c72b59a108b70d07f5600",
+    "state": "OK"
+  },
+  {
+    "file": "2025_index.html",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2025/",
+    "at_utc": "2026-10-30T11:56:13.984691+00:00",
+    "http_status": "cached_previous_200",
+    "bytes": 2995,
+    "sha256": "f54a96305e37f8afd3bbb7079e9ef5405a23c27de4fc1e848a8231ad4d21b54f",
+    "state": "OK"
+  }
+]

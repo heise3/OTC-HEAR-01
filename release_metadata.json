@@ -1,0 +1,13 @@
+{
+  "project": "OTC-HEAR-01",
+  "scientific_contract_version": "v1.0",
+  "public_release_version": "v1.0.0",
+  "release_date_local": "2026-11-01",
+  "timezone": "America/Los_Angeles",
+  "repository": "https://github.com/heise3/OTC-HEAR-01",
+  "release": "https://github.com/heise3/OTC-HEAR-01/releases/tag/v1.0.0",
+  "archive_type": "post_analysis_public_code_protocol_archive",
+  "prospective_public_preregistration": false,
+  "source_snapshot_files": 74,
+  "full_analysis_rerun_for_publication": false
+}

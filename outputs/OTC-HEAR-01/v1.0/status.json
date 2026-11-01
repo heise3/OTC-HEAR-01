@@ -1,0 +1,74 @@
+{
+  "project": "OTC-HEAR-01",
+  "version": "v1.0",
+  "terminal": true,
+  "gates": {
+    "A0": "PASS",
+    "D": "PASS",
+    "L0": "PASS",
+    "L1": "PASS",
+    "L2": "PASS",
+    "L3": "PASS",
+    "L4": "PASS"
+  },
+  "decision": "GO",
+  "primary": {
+    "delta_pp": 0.785,
+    "ci": [
+      -0.5291,
+      2.0991
+    ],
+    "conclusion": "全国层面无有意义变化（等效成立）",
+    "pre_standardized_pct": 31.5415,
+    "post_standardized_pct": 32.3265,
+    "negative_control_downgrade": false,
+    "denominator_sensitive": false,
+    "policy_interpretation": "未触发冻结阴性对照降级条件；仍不能识别政策因果效应"
+  },
+  "deviations": [
+    {
+      "type": "A0_retrieval_coverage_limit",
+      "description": "Direct medRxiv/SSRN HTTP403; indexed fallback used within12queries; complete2024–2026conference abstract catalogue not obtained"
+    },
+    {
+      "type": "bibliographic_correction",
+      "description": "Picou/Huang=PMC12638185; PMC12638189=Jilla/Jorgensen; frozen contract unchanged"
+    },
+    {
+      "type": "construct_label_qualification",
+      "description": "2023–2024 cannot be strictly labelled pureOTC because FDA authorized headphone hearing software2024-09-12; no window or threshold changed"
+    }
+  ],
+  "frozen_at_utc": "2026-10-30T11:52:04.831863+00:00",
+  "sha256": {
+    "contract.md": "1e232c152a8e4446b7a833f9f6dd316e559fc2498c46ea06c4e5af6390832889",
+    "config.yaml": "6c27c9d16b9674540dde5fc34da50fc2d7d90137e96906699175ed5592766ddf"
+  },
+  "A0_coverage": "bounded_search_no_EXACT_or_PARENT_identified; direct_medRxiv_SSRN_unavailable",
+  "updated_at_utc": "2026-10-30 12:07:13 UTC",
+  "D_notes": [
+    "Core semantics and design verified",
+    "2022 interview quarter available; no fallback",
+    "Official income10draws complete linkage",
+    "Race/ethnicity unimputedN not recoverable from released recode; noted UNVERIFIED",
+    "2023-24 pureOTC label limited by2024 software authorization; windows unchanged"
+  ],
+  "decision_scope": "Frozen gates complete with valid calibrated national period-change estimate; GO does not mean OTC causal effect or meaningful uptake increase",
+  "secondary": {
+    "income_DiD_pp": 1.0323,
+    "income_DiD_ci": [
+      -2.4687,
+      4.5333
+    ],
+    "frequency_delta_pp": 0.9091,
+    "extension2025_delta_pp": 1.0568
+  },
+  "limitations": [
+    "No causal policy identification; device type and acquisition date unobserved",
+    "HISPALLP_A unimputed valid N not recoverable from released recode",
+    "Reference distribution treated as fixed; literal2019–2024 full years",
+    "Secondary pointwise CIs unadjusted for multiplicity"
+  ],
+  "numerical_QA": "PASS",
+  "finalized_at_utc": "2026-10-30T12:10:10.588822+00:00"
+}

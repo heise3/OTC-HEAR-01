@@ -1,0 +1,38 @@
+gate,year,period,imputation,unweighted_n,threshold,status,note
+H_year,2019,pre,0,5013,,DESCRIPTIVE_COUNT,"H union, age50-85;2022Q1-Q3"
+H_main_complete_year,2019,pre,0,5013,,DESCRIPTIVE_COUNT,Valid outcome and sex; count only
+low_income_observed_year,2019,pre,0,1201,,DESCRIPTIVE_COUNT,Reported income only; IMPINCFLG_A0
+H_year,2021,pre,0,4517,,DESCRIPTIVE_COUNT,"H union, age50-85;2022Q1-Q3"
+H_main_complete_year,2021,pre,0,4515,,DESCRIPTIVE_COUNT,Valid outcome and sex; count only
+low_income_observed_year,2021,pre,0,969,,DESCRIPTIVE_COUNT,Reported income only; IMPINCFLG_A0
+H_year,2022,pre,0,3383,,DESCRIPTIVE_COUNT,"H union, age50-85;2022Q1-Q3"
+H_main_complete_year,2022,pre,0,3382,,DESCRIPTIVE_COUNT,Valid outcome and sex; count only
+low_income_observed_year,2022,pre,0,730,,DESCRIPTIVE_COUNT,Reported income only; IMPINCFLG_A0
+H_year,2023,post,0,4895,,DESCRIPTIVE_COUNT,"H union, age50-85;2022Q1-Q3"
+H_main_complete_year,2023,post,0,4895,,DESCRIPTIVE_COUNT,Valid outcome and sex; count only
+low_income_observed_year,2023,post,0,1105,,DESCRIPTIVE_COUNT,Reported income only; IMPINCFLG_A0
+H_year,2024,post,0,5598,,DESCRIPTIVE_COUNT,"H union, age50-85;2022Q1-Q3"
+H_main_complete_year,2024,post,0,5598,,DESCRIPTIVE_COUNT,Valid outcome and sex; count only
+low_income_observed_year,2024,post,0,1262,,DESCRIPTIVE_COUNT,Reported income only; IMPINCFLG_A0
+H_period,pooled,pre,0,12913,6000.0,PASS,Independent sample adults; no imputation multiplicity
+low_income_H_period,pooled,pre,1,3807,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+low_income_H_period,pooled,pre,2,3816,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+low_income_H_period,pooled,pre,3,3856,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+low_income_H_period,pooled,pre,4,3783,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+low_income_H_period,pooled,pre,5,3815,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+low_income_H_period,pooled,pre,6,3852,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+low_income_H_period,pooled,pre,7,3849,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+low_income_H_period,pooled,pre,8,3842,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+low_income_H_period,pooled,pre,9,3833,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+low_income_H_period,pooled,pre,10,3831,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+H_period,pooled,post,0,10493,5000.0,PASS,Independent sample adults; no imputation multiplicity
+low_income_H_period,pooled,post,1,3159,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+low_income_H_period,pooled,post,2,3196,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+low_income_H_period,pooled,post,3,3198,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+low_income_H_period,pooled,post,4,3195,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+low_income_H_period,pooled,post,5,3182,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+low_income_H_period,pooled,post,6,3196,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+low_income_H_period,pooled,post,7,3195,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+low_income_H_period,pooled,post,8,3150,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+low_income_H_period,pooled,post,9,3198,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass
+low_income_H_period,pooled,post,10,3176,1000.0,PASS,One row per adult in this income draw; minimum draw required to pass

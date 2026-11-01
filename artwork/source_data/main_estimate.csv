@@ -1,0 +1,2 @@
+estimand,estimate_pp,se_pp,ci_lower_pp,ci_upper_pp,df,conclusion,pre_standardized_pct,post_standardized_pct,unweighted_pre_n,unweighted_post_n,largest_increase_not_excluded_pp,largest_decrease_magnitude_not_excluded_pp
+post_minus_pre,0.785020311949107,0.669228959298332,-0.529106452033105,2.09914707593132,646,全国层面无有意义变化（等效成立）,31.5415025367667,32.3265228487158,12910,10493,2.09914707593132,0.529106452033105

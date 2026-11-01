@@ -1,0 +1,6 @@
+                                   check        value    reference status
+1      independent_WLS_point_calculation 2.414735e-15     0.000000   PASS
+2 independent_WR_PSU_linearization_SE_pp 6.692290e-01     0.669229   PASS
+3            Python_R_main_domain_counts 2.340300e+04 23403.000000   PASS
+4         manual_Rubin_pooling_DiD_SE_pp 1.781058e+00     1.781058   PASS
+5         event_years_and_finite_results 7.000000e+00     7.000000   PASS

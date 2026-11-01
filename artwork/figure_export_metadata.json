@@ -1,0 +1,13 @@
+{
+  "pixels": [
+    4080,
+    3540
+  ],
+  "dpi": [
+    600.0,
+    600.0
+  ],
+  "mode": "RGB",
+  "compression": "tiff_lzw",
+  "resampled": false
+}

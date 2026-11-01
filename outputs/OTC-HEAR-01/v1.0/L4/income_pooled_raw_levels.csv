@@ -1,0 +1,5 @@
+income_group,post,estimate_pct,se_pp,ci_lower_pct,ci_upper_pct,n_min,n_max,note
+Low,0,26.7103430449436,0.98053470340422,24.7812975414451,28.6393885484421,3781,3855,Rubin pooled unadjusted survey levels; N is range across10draws
+Low,1,28.5811274060118,1.092339876836,26.434613725568,30.7276410864555,3150,3198,Rubin pooled unadjusted survey levels; N is range across10draws
+High,0,33.7045889159332,0.712762546458521,32.3042567038118,35.1049211280547,5074,5136,Rubin pooled unadjusted survey levels; N is range across10draws
+High,1,34.3862019265781,0.900517376825122,32.6160433959695,36.1563604571867,3925,3950,Rubin pooled unadjusted survey levels; N is range across10draws

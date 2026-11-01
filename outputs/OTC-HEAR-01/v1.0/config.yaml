@@ -1,0 +1,89 @@
+project: OTC-HEAR-01
+version: v1.0
+terminal_version_limit: v1.1
+source: NCHS official NHIS public-use Sample Adult files and imputed income files
+unit: sample_adult
+policy_date: 2022-10-17
+population_age_min: 50
+hearing_population:
+  union: [HEARAID_A == 1, HEARINGDF_A in difficulty_categories]
+  difficulty_categories: [some_difficulty, a_lot_of_difficulty, cannot_hear_at_all]
+primary_outcome: HEARAID_A == 1
+periods:
+  pre_full_years: [2019, 2021]
+  pre_partial_year: 2022
+  pre_partial_quarters: [1, 2, 3]
+  transition_excluded: 2022_Q4
+  primary_post_years: [2023, 2024]
+  extension_year: 2025
+  excluded_year: 2020
+  quarter_missing_fallback: exclude_all_2022
+standardization:
+  age_groups: [50-64, 65-74, 75-84, 85+]
+  cross_with: sex
+  standard: pooled_2019_to_2024_H_distribution
+primary_model: design_weighted_linear_probability_with_period_and_age_by_sex
+primary_effect: post_minus_pre_percentage_points
+confidence_level: 0.95
+equivalence_margin_pp: 2.5
+conclusion_rules_ordered:
+  - ci_entirely_inside_open_interval_minus2.5_plus2.5: equivalence
+  - lower_ci_above_2.5: meaningful_increase
+  - lower_ci_above_0_and_ci_crosses_2.5: increase_meaningful_magnitude_uncertain
+  - otherwise: uncertain_report_excludable_magnitude
+A0:
+  maximum_hours: 2
+  maximum_search_expressions: 12
+  exact: national_probability_survey_pre_post_OTC_hearing_aid_use
+  parent: published_NHIS_trends_covering_2023_or_later_interpreted_as_OTC_effect
+  stop_classes: [EXACT, PARENT]
+  continue_classes: [ADJACENT, NONE]
+D:
+  maximum_hours: 3
+  required_years: [2019, 2021, 2022, 2023, 2024]
+  audit_years: [2019, 2020, 2021, 2022, 2023, 2024, 2025]
+  stop: substantive_core_item_change_or_missing_core_or_missing_design_or_unidentifiable_50plus
+  optional_missing: [2025_extension, MA, VA_TRICARE, interview_mode]
+  eyeglasses_missing: NOT_RUN_and_downgrade_main_conclusion
+L0:
+  maximum_hours: 1
+  minimum_H_pre_n: 6000
+  minimum_H_post_n: 5000
+  minimum_low_income_H_each_period_n: 1000
+  low_income_ratio_cutoff: 2.0
+  count_only_no_outcome_rates: true
+L1:
+  maximum_hours: 2
+  source: NCHS_Data_Brief_414_db414-tables-508.pdf
+  targets: [45plus_aid, 65plus_aid_all, 65plus_aid_male, 65plus_aid_female, 18plus_some_difficulty, 18plus_a_lot_or_cannot]
+  pass_rule: all_point_estimates_inside_original_95pct_CI
+L2:
+  maximum_hours: 3
+  event_years: [2019, 2020, 2021, 2022, 2023, 2024, 2025]
+  year_2020: display_only
+  year_2022: Q1_Q3_or_NOT_RUN_if_fallback
+L3:
+  maximum_hours: 3
+  negative_control: eyeglasses_contacts_use_among_all_50plus
+  downgrade: same_sign_and_abs_negative_control_ge_half_abs_primary_delta
+  denominator_sensitive: opposite_sign_all50plus_aid_and_H_aid_delta
+  pretrend_extrapolation: sensitivity
+  H_prevalence: report
+  interview_mode: sensitivity_if_available
+L4:
+  maximum_hours: 3
+  income_comparison: poverty_ratio_lt2_vs_ge4_difference_in_changes
+  income: official_multiple_imputations_Rubin_pooling
+  age_gradient: 50_to_69_vs_80plus
+  frequency: always_among_aid_users
+  extension_2025: separate_no_primary_pooling
+  insurance: MA_vs_traditional_Medicare_and_VA_TRICARE_descriptive
+  terminal_after_completion: true
+execution:
+  gate_order: [A0, D, L0, L1, L2, L3, L4]
+  stop_immediately_when_frozen_stop_gate_triggers: true
+  no_reidentification: true
+  no_external_record_linkage: true
+  no_portal_login: true
+  engineering_fixes: same_version_log_required
+  scientific_rule_changes_after_outcome: forbidden

@@ -1,0 +1,2 @@
+Download/count orchestration system Python: 3.14.6
+Document/audit Python: bundled runtime Python3.12; pandas and pypdf.

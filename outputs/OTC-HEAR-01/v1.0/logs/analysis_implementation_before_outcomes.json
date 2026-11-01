@@ -1,0 +1,20 @@
+{
+  "recorded_stage": "D, before L0 counts and before computed outcome proportions",
+  "frozen_contract_unchanged": true,
+  "L0_income_counts": "Report each of 10 official imputations separately; use minimum draw count within each period against the unchanged >=1000 gate. Also report observed-income-only counts. Never sum imputed rows as people.",
+  "pre_duration_years": 2.75,
+  "post_duration_years": 2,
+  "main_weight": "WTFA_A/2.75 for pre-period records; WTFA_A/2 for main post-period records. The 2022 Q1-Q3 contributes 0.75 year; transition Q4 excluded.",
+  "standard_population": "Literal contract: all full years 2019-2024 H age>=50, valid sex; annual WTFA_A/6. This includes 2020 and transition Q4 as reference-composition observations only. Reference distribution treated as fixed for standardization.",
+  "standardization": "Age4 by sex8 cells. Additive survey LPM y~post+age_sex; weighted marginal prediction in fixed reference. For this additive LPM, standardized difference equals post coefficient.",
+  "variance": "Use original public PSTRAT and PPSU across years as official examples prescribe; no year prefix; full survey design before domain subset. With-replacement Taylor linearization. 95% t interval with survey model residual df.",
+  "annual_event_rates": "Saturated year by age_sex survey LPM; marginal prediction using same fixed pooled H reference; 2022 uses Q1-Q3. 2020 displayed only. 2025 separate extension.",
+  "H_missingness": "H=1 if aid yes OR difficulty2/3/4; H=0 only if aid no and difficulty1; otherwise H unknown. Main outcome missing if HEARAID not1/2, even where H known.",
+  "secondary_income_model": "y~post*income_group+age_sex within H and low/high groups; low<2 versus high>=4; ten official income draws; Rubin pooled coefficient and variance. Low-minus-high difference in changes positive denotes narrowing in uptake disadvantage.",
+  "age_gradient_model": "H; y~post*age_band+sex, comparing50-69 to80plus. No difficulty-severity treatment/control groups.",
+  "pretrend_sensitivity": "Survey LPM y~year_centered+age_sex restricted to pre observations. Extrapolate to weighted post calendar-year mean; report observed-standardized-post minus extrapolated trend with joint design linearized covariance.",
+  "frequency": "All-time HEARAIDFR_A=1 among HEARAID_A=1 with valid frequency1-4; age-sex adjusted pre/post difference.",
+  "mode_sensitivity": "Add factor(INTMODESA) all/some/none telephone to main model on valid-mode respondents; report availability and paired complete-mode baseline.",
+  "insurance": "MA determined from documented COVER65_A hierarchy for MA; traditional Medicare combines Medicare recipients without MA using official MA responses/recode; report exact operational coding and unknowns. VA/TRICARE uses corrected MILSPC1R_A or MILSPC2_A positive. Descriptive only.",
+  "recorded_at_utc": "2026-10-30T12:01:31.644154+00:00"
+}

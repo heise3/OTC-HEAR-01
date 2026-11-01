@@ -1,0 +1,6 @@
+check,value,reference,status
+independent_WLS_point_calculation,2.41473507855972e-15,0,PASS
+independent_WR_PSU_linearization_SE_pp,0.669228959298329,0.669228959298328,PASS
+Python_R_main_domain_counts,23403,23403,PASS
+manual_Rubin_pooling_DiD_SE_pp,1.78105785878429,1.78105785878429,PASS
+event_years_and_finite_results,7,7,PASS

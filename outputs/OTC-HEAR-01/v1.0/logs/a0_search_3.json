@@ -1,0 +1,9 @@
+{
+  "stage": "A0",
+  "response_sha256": "b85b5634ac29bdc8d292d1fad78b43a6050428ae3076198fff73979cf6ed9c21",
+  "original_response_bytes": 30665,
+  "original_retained_in_work": true,
+  "search_expressions_file": "A0/search_log.csv",
+  "adjudication_file": "A0/dup_check.csv",
+  "note": "Compact provenance log; primary texts are read at their official URLs and original retrievals remain in work."
+}

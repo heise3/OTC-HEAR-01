@@ -1,0 +1,5 @@
+R 4.6.1
+survey 4.5
+mitools 2.7
+data.table 1.18.6.1
+jsonlite 2.0.0

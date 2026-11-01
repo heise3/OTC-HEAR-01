@@ -1,0 +1,170 @@
+[
+  {
+    "year": 2019,
+    "kind": "adult",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2019/Adult19csv.zip",
+    "bytes": 4372417,
+    "sha256": "fc105b045c46d871b029c5e6cefa797450fff9e4610fdc9a29e2af3137f16917",
+    "at_utc": "2026-10-30T11:59:32.589511+00:00"
+  },
+  {
+    "year": 2019,
+    "kind": "adultinc",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2019/Adultinc19csv.zip",
+    "bytes": 1360766,
+    "sha256": "438a5177fd223c29dd58fc398b5e56966e0f7bcf7d864b6cba94a59eadb926de",
+    "at_utc": "2026-10-30T11:59:32.621446+00:00"
+  },
+  {
+    "year": 2019,
+    "kind": "paradata",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2019/Paradata19csv.zip",
+    "bytes": 1411405,
+    "sha256": "f6a15a2cad1e43aa9e0c398f0f48b13b58ba879e4d34e6a123b91615708da949",
+    "at_utc": "2026-10-30T11:59:35.902098+00:00"
+  },
+  {
+    "year": 2020,
+    "kind": "adult",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/adult20csv.zip",
+    "bytes": 5154926,
+    "sha256": "a517a49fa93285bef61ff4e849a0d4b5aa6fa99a1998c6caa716bfc9b5d984fe",
+    "at_utc": "2026-10-30T11:59:32.583395+00:00"
+  },
+  {
+    "year": 2020,
+    "kind": "adultinc",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/adultinc20csv.zip",
+    "bytes": 1306403,
+    "sha256": "38a5a17431c00392a6beb60b424b05fe3059541e8e816d0012c3c303a369264b",
+    "at_utc": "2026-10-30T11:59:32.604938+00:00"
+  },
+  {
+    "year": 2020,
+    "kind": "paradata",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/paradata20csv.zip",
+    "bytes": 1370055,
+    "sha256": "5eb0adbe2574989550c2062bf26c3a961f584853b3ffd859f48f435803bc06ab",
+    "at_utc": "2026-10-30T11:59:35.573039+00:00"
+  },
+  {
+    "year": 2021,
+    "kind": "adult",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2021/adult21csv.zip",
+    "bytes": 4395751,
+    "sha256": "6e71f5a34115f9aef51304957c08b6db7a91f8a0a6eb3d9d21cd4f254cbdbf78",
+    "at_utc": "2026-10-30T11:59:32.591429+00:00"
+  },
+  {
+    "year": 2021,
+    "kind": "adultinc",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2021/adultinc21csv.zip",
+    "bytes": 1005640,
+    "sha256": "08f489d0cadd33950c58146a01651f8862d7b438e868d70c1c015f29b123200d",
+    "at_utc": "2026-10-30T11:59:32.618832+00:00"
+  },
+  {
+    "year": 2021,
+    "kind": "paradata",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2021/paradata21csv.zip",
+    "bytes": 1617099,
+    "sha256": "46ad81a6a8d398c6500116a2a1458e1cdfe3675c9a8d9aff26f95eddefa2ad1b",
+    "at_utc": "2026-10-30T11:59:36.173788+00:00"
+  },
+  {
+    "year": 2022,
+    "kind": "adult",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2022/adult22csv.zip",
+    "bytes": 3654579,
+    "sha256": "25083298173acfff35c6635be0fbcaa3ff26b985e0a48fc5e7d9788761864dba",
+    "at_utc": "2026-10-30T11:59:32.590308+00:00"
+  },
+  {
+    "year": 2022,
+    "kind": "adultinc",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2022/adultinc22csv.zip",
+    "bytes": 784575,
+    "sha256": "477b2b4375fb77b152cab08bd5a1855bad275643f209163cc2053c691c0f6059",
+    "at_utc": "2026-10-30T11:59:32.616396+00:00"
+  },
+  {
+    "year": 2022,
+    "kind": "paradata",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2022/paradata22csv.zip",
+    "bytes": 1795599,
+    "sha256": "cfb6838add2480f03920a2d89df6889e5227d0b8c069eb7d68f6dbece6f09ee5",
+    "at_utc": "2026-10-30T11:59:35.907700+00:00"
+  },
+  {
+    "year": 2023,
+    "kind": "adult",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/adult23csv.zip",
+    "bytes": 4780657,
+    "sha256": "e6f0918e683e1d756e4298470737b4c99777e8a90ea9ee7488544b917f058585",
+    "at_utc": "2026-10-30T11:59:35.601073+00:00"
+  },
+  {
+    "year": 2023,
+    "kind": "adultinc",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/adultinc23csv.zip",
+    "bytes": 1003467,
+    "sha256": "2d62c27a4d7b6651b41e7f122ee57a5ab5828323e7752eee4b8adf7adb53e28c",
+    "at_utc": "2026-10-30T11:59:35.609904+00:00"
+  },
+  {
+    "year": 2023,
+    "kind": "paradata",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/paradata23csv.zip",
+    "bytes": 1718248,
+    "sha256": "e560718e8d50aee6df8e5099aad4dec1bf7ff6229d2c1a81e8392cd302d6302d",
+    "at_utc": "2026-10-30T11:59:38.549708+00:00"
+  },
+  {
+    "year": 2024,
+    "kind": "adult",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2024/adult24csv.zip",
+    "bytes": 5543360,
+    "sha256": "5f926b2ec0af508fa84ebc791c83bfefa6f020724754aab599004706981abdaf",
+    "at_utc": "2026-10-30T11:59:35.929643+00:00"
+  },
+  {
+    "year": 2024,
+    "kind": "adultinc",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2024/adultinc24csv.zip",
+    "bytes": 1100177,
+    "sha256": "9bb8de994eb1ee793d47e056a8740607b8005e4c879dbf4a0be7faca606b8d7c",
+    "at_utc": "2026-10-30T11:59:35.941466+00:00"
+  },
+  {
+    "year": 2024,
+    "kind": "paradata",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2024/paradata24csv.zip",
+    "bytes": 1857749,
+    "sha256": "2253f4962fcc347b6ca365a77ba16aef9b42385ae52ae9223c3f944ca28c274f",
+    "at_utc": "2026-10-30T11:59:39.241601+00:00"
+  },
+  {
+    "year": 2025,
+    "kind": "adult",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2025/adult25csv.zip",
+    "bytes": 3579199,
+    "sha256": "94d5477ffc3a03e292a3000da8eb5ad71626ae8032bbaa98c9711b7a3b572570",
+    "at_utc": "2026-10-30T11:59:35.924913+00:00"
+  },
+  {
+    "year": 2025,
+    "kind": "adultinc",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2025/adultinc25csv.zip",
+    "bytes": 808371,
+    "sha256": "861bd254d29a375ae276539efe73775374f9205e5b4933ace2f07aa588d42535",
+    "at_utc": "2026-10-30T11:59:35.941299+00:00"
+  },
+  {
+    "year": 2025,
+    "kind": "paradata",
+    "url": "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2025/paradata25csv.zip",
+    "bytes": 1526404,
+    "sha256": "795e8693ad567eb9910ecc835ca2359d21d5efa4b55cee404e4e1c7ffd769ed2",
+    "at_utc": "2026-10-30T11:59:39.107841+00:00"
+  }
+]

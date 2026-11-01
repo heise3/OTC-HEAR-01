@@ -1,0 +1,24 @@
+             target published_pct published_lower published_upper
+             <char>         <num>           <num>           <num>
+1:        aid45plus           7.1             6.7             7.5
+2:        aid65plus          14.4            13.6            15.2
+3:   aid65plus_male          19.2            17.8            20.6
+4: aid65plus_female          10.6             9.7            11.5
+5:       some18plus          13.0            12.5            13.5
+6:     severe18plus           1.6             1.5             1.8
+   source_pdf_page estimate_pct      se_pp ci_lower_pct ci_upper_pct
+             <num>        <num>      <num>        <num>        <num>
+1:               4     7.053321 0.20227031     6.656012     7.450630
+2:               4    14.426844 0.40520944    13.630913    15.222776
+3:               4    19.168426 0.71867066    17.756728    20.580123
+4:               4    10.565513 0.47123317     9.639880    11.491146
+5:               1    12.990911 0.26876807    12.462986    13.518836
+6:               1     1.621735 0.08420254     1.456341     1.787129
+   unweighted_n design_df status
+          <int>     <int> <char>
+1:        19880       555   PASS
+2:         9289       555   PASS
+3:         3929       546   PASS
+4:         5360       551   PASS
+5:        31966       556   PASS
+6:        31966       556   PASS

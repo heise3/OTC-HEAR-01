@@ -1,0 +1,26 @@
+        estimand estimate_pp    se_pp ci_lower_pp ci_upper_pp  df
+1 post_minus_pre   0.7850203 0.669229  -0.5291065    2.099147 646
+                        conclusion pre_standardized_pct post_standardized_pct
+1 全国层面无有意义变化（等效成立）              31.5415              32.32652
+  unweighted_pre_n unweighted_post_n largest_increase_not_excluded_pp
+1            12910             10493                         2.099147
+  largest_decrease_magnitude_not_excluded_pp
+1                                  0.5291065
+   estimand estimate_pp     se_pp ci_lower_pp ci_upper_pp    df  year
+     <char>       <num>     <num>       <num>       <num> <num> <int>
+1: year2019    30.93728 0.7162814    29.53192    32.34263  1159  2019
+2: year2020    30.93044 0.7859395    29.38841    32.47246  1159  2020
+3: year2021    32.05963 0.7743346    30.54037    33.57888  1159  2021
+4: year2022    31.69234 0.8532396    30.01827    33.36641  1159  2022
+5: year2023    31.65365 0.7478351    30.18639    33.12091  1159  2023
+6: year2024    32.93374 0.7089447    31.54278    34.32470  1159  2024
+7: year2025    32.58899 0.8044196    31.01070    34.16727  1159  2025
+   unweighted_n  analysis_role
+          <int>         <char>
+1:         5013    main_window
+2:         4966   display_only
+3:         4515    main_window
+4:         3382      pre_Q1_Q3
+5:         4895    main_window
+6:         5598    main_window
+7:         4356 extension_only

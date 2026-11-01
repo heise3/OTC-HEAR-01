@@ -1,0 +1,48 @@
+                                   estimand estimate_pp     se_pp ci_lower_pp
+                                     <char>       <num>     <num>       <num>
+ 1:                    eyeglasses_all50plus -0.20519495 0.3866851  -0.9644805
+ 2:                  H_prevalence_all50plus  0.09914936 0.3900091  -0.6666631
+ 3:                           aid_all50plus  0.22948744 0.2015613  -0.1662934
+ 4:                  mode_complete_baseline  0.78502031 0.6692290  -0.5291065
+ 5:             adjusted_for_interview_mode  0.77466798 0.6689939  -0.5390049
+ 6: observed_post_minus_pretrend_projection -0.12732246 1.2288371  -2.5403766
+ 7:          pre_slope_pp_per_calendar_year  0.30743636 0.3455753  -0.3711660
+ 8:                          age_80+_change  0.09990175 1.5339478  -2.9122240
+ 9:                        age_50-69_change  0.50406507 0.8827996  -1.2294382
+10:          age_gradient_50_69_minus80plus  0.40416332 1.7689052  -3.0693351
+11:                      Medicare_MA_change  3.61707313 1.3686701   0.9294858
+12:             Medicare_Traditional_change -0.87054053 1.2139550  -3.2543217
+13:             Traditional_minus_MA_change -4.48761367 1.8660232  -8.1518278
+14:                    VA_or_TRICARE_change -1.76317032 2.0024130  -5.6961497
+    ci_upper_pp    df n_pre n_post status negative_control_downgrade
+          <num> <num> <int>  <int> <char>                     <lgcl>
+ 1:   0.5540906   658 45773  35525   PASS                      FALSE
+ 2:   0.8649618   658 45771  35520   PASS                      FALSE
+ 3:   0.6252682   658 45780  35527   PASS                      FALSE
+ 4:   2.0991471   646 12910  10493   PASS                      FALSE
+ 5:   2.0883408   644 12910  10493   PASS                      FALSE
+ 6:   2.2857316   638    NA     NA   PASS                      FALSE
+ 7:   0.9860388   638    NA     NA   PASS                      FALSE
+ 8:   3.1120275   646  3293   2694   PASS                      FALSE
+ 9:   2.2375683   646  5616   4361   PASS                      FALSE
+10:   3.8776617   646    NA     NA   PASS                      FALSE
+11:   6.3046605   645  3380   3410   PASS                      FALSE
+12:   1.5132407   645  4937   3688   PASS                      FALSE
+13:  -0.8233996   645    NA     NA   PASS                      FALSE
+14:   2.1698091   572  1704   1350   PASS                      FALSE
+    denominator_sensitive                              policy_interpretation
+                   <lgcl>                                             <char>
+ 1:                 FALSE 未触发冻结阴性对照降级条件；仍不能识别政策因果效应
+ 2:                 FALSE 未触发冻结阴性对照降级条件；仍不能识别政策因果效应
+ 3:                 FALSE 未触发冻结阴性对照降级条件；仍不能识别政策因果效应
+ 4:                 FALSE 未触发冻结阴性对照降级条件；仍不能识别政策因果效应
+ 5:                 FALSE 未触发冻结阴性对照降级条件；仍不能识别政策因果效应
+ 6:                 FALSE 未触发冻结阴性对照降级条件；仍不能识别政策因果效应
+ 7:                 FALSE 未触发冻结阴性对照降级条件；仍不能识别政策因果效应
+ 8:                 FALSE 未触发冻结阴性对照降级条件；仍不能识别政策因果效应
+ 9:                 FALSE 未触发冻结阴性对照降级条件；仍不能识别政策因果效应
+10:                 FALSE 未触发冻结阴性对照降级条件；仍不能识别政策因果效应
+11:                 FALSE 未触发冻结阴性对照降级条件；仍不能识别政策因果效应
+12:                 FALSE 未触发冻结阴性对照降级条件；仍不能识别政策因果效应
+13:                 FALSE 未触发冻结阴性对照降级条件；仍不能识别政策因果效应
+14:                 FALSE 未触发冻结阴性对照降级条件；仍不能识别政策因果效应

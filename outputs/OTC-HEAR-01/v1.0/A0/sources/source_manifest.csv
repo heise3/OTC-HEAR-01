@@ -1,0 +1,11 @@
+source_key,url,retrieved_bytes,sha256,date,original_retained_in_work
+pubmed_search_q9,https://pubmed.ncbi.nlm.nih.gov/?term=hearing+aid+use+trends+2023+2024+United+States,248694,cf4c135257d9b65f4453655b4684978e36341e27caceec41f1c219154ccdbef9,2026-10-30,True
+pubmed_q1,https://pubmed.ncbi.nlm.nih.gov/?term=NHIS+over-the-counter+hearing+aid+2023+2024+use+trends,201890,6708a06211b7238406278a3e94544bb7e6304d8e4686c64d6999e7fa74c38018,2026-10-30,True
+pubmed_q3,https://pubmed.ncbi.nlm.nih.gov/?term=Reed+Nieman+NHATS+over-the-counter+hearing+aid+use+2024+2025+2026,201813,f35a25119b0b51ac75e21408a03a46e9525c806abb7e6dd5785d18ae2b8e020a,2026-10-30,True
+razura_europepmc,https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:40062586&format=json,900,a63901b943e2d2dcbe37d2f2dcb6e3bd531db68edd794737ffff373f9aa4650c,2026-10-30,True
+nhats_trends,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11437379/fullTextXML,24206,1b42e8ceae158266974e5f9e186aac1339a49ad8bb090c0093183d44f0d44525,2026-10-30,True
+nhats_hispanic_html,https://pmc.ncbi.nlm.nih.gov/articles/PMC12593663/,156857,eac75f0e9844a7282acbf9df65dc5bc240ff6c05f3d7468d46009687a49385bc,2026-10-30,True
+marketrak_methods,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12638186/fullTextXML,23259,3c33499ea6c52c287d54fb891362c6c8e5b86e68eb07b6124bec53e5350ec03a,2026-10-30,True
+marketrak_picou,https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12638185/fullTextXML,56766,42b0fb9b086729fc4f9b2fda6ea08b90afd21ac6514afbfbf5b276fc0833b248,2026-10-30,True
+reed_review_html,https://pmc.ncbi.nlm.nih.gov/articles/PMC12697576/,294640,6d20abd1a1fd97680c4ad81db7285765111405f163dd96ed2e32ee58199a0568,2026-10-30,True
+nchs_earlyrelease,https://www.cdc.gov/nchs/nhis/early-release/index.html,51981,a29a8a90db4e6bc2ff7105c7f9155c83e8f0f9e3115600649c3a4ffe4356c3d0,2026-10-30,True

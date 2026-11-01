@@ -1,0 +1,69 @@
+[1] TRUE
+                             estimand estimate_pp     se_pp ci_lower_pp
+                               <char>       <num>     <num>       <num>
+ 1:                income_high_change  0.18315870 1.0444952  -1.8690055
+ 2:                 income_low_change  1.21546432 1.3815878  -1.4991515
+ 3:         income_low_minus_high_DiD  1.03230562 1.7810579  -2.4687302
+ 4: always_use_among_aid_users_change  0.90905418 1.3603155  -1.7622228
+ 5:           extension2025_minus_pre  1.05676652 0.9228097  -0.7538128
+ 6:                    age_80+_change  0.09990175 1.5339478  -2.9122240
+ 7:                  age_50-69_change  0.50406507 0.8827996  -1.2294382
+ 8:    age_gradient_50_69_minus80plus  0.40416332 1.7689052  -3.0693351
+ 9:                Medicare_MA_change  3.61707313 1.3686701   0.9294858
+10:       Medicare_Traditional_change -0.87054053 1.2139550  -3.2543217
+11:       Traditional_minus_MA_change -4.48761367 1.8660232  -8.1518278
+12:              VA_or_TRICARE_change -1.76317032 2.0024130  -5.6961497
+    ci_upper_pp        df within_variance_pp2 between_variance_pp2 imputations
+          <num>     <num>               <num>                <num>       <num>
+ 1:   2.2353229  497.6344            1.028969           0.05636447          10
+ 2:   3.9300801  486.4962            1.794285           0.10409049          10
+ 3:   4.5333414  414.3438            2.916168           0.23272690          10
+ 4:   3.5803311  633.0000                  NA                   NA          NA
+ 5:   2.8673458 1150.0000                  NA                   NA          NA
+ 6:   3.1120275  646.0000                  NA                   NA          NA
+ 7:   2.2375683  646.0000                  NA                   NA          NA
+ 8:   3.8776617  646.0000                  NA                   NA          NA
+ 9:   6.3046605  645.0000                  NA                   NA          NA
+10:   1.5132407  645.0000                  NA                   NA          NA
+11:  -0.8233996  645.0000                  NA                   NA          NA
+12:   2.1698091  572.0000                  NA                   NA          NA
+    status                  role n_pre n_post
+    <char>                <char> <int>  <int>
+ 1:   PASS          secondary_MI    NA     NA
+ 2:   PASS          secondary_MI    NA     NA
+ 3:   PASS          secondary_MI    NA     NA
+ 4:   PASS   secondary_frequency  4320   3624
+ 5:   PASS    separate_extension 12910   4356
+ 6:   PASS         secondary_age  3293   2694
+ 7:   PASS         secondary_age  5616   4361
+ 8:   PASS         secondary_age    NA     NA
+ 9:   PASS descriptive_insurance  3380   3410
+10:   PASS descriptive_insurance  4937   3688
+11:   PASS descriptive_insurance    NA     NA
+12:   PASS descriptive_insurance  1704   1350
+                                                                                                    secondary_multiplicity_note
+                                                                                                                         <char>
+ 1: Prespecified secondary/descriptive analyses; pointwise95%CIs, no multiplicity adjustment; do not replace primary conclusion
+ 2: Prespecified secondary/descriptive analyses; pointwise95%CIs, no multiplicity adjustment; do not replace primary conclusion
+ 3: Prespecified secondary/descriptive analyses; pointwise95%CIs, no multiplicity adjustment; do not replace primary conclusion
+ 4: Prespecified secondary/descriptive analyses; pointwise95%CIs, no multiplicity adjustment; do not replace primary conclusion
+ 5: Prespecified secondary/descriptive analyses; pointwise95%CIs, no multiplicity adjustment; do not replace primary conclusion
+ 6: Prespecified secondary/descriptive analyses; pointwise95%CIs, no multiplicity adjustment; do not replace primary conclusion
+ 7: Prespecified secondary/descriptive analyses; pointwise95%CIs, no multiplicity adjustment; do not replace primary conclusion
+ 8: Prespecified secondary/descriptive analyses; pointwise95%CIs, no multiplicity adjustment; do not replace primary conclusion
+ 9: Prespecified secondary/descriptive analyses; pointwise95%CIs, no multiplicity adjustment; do not replace primary conclusion
+10: Prespecified secondary/descriptive analyses; pointwise95%CIs, no multiplicity adjustment; do not replace primary conclusion
+11: Prespecified secondary/descriptive analyses; pointwise95%CIs, no multiplicity adjustment; do not replace primary conclusion
+12: Prespecified secondary/descriptive analyses; pointwise95%CIs, no multiplicity adjustment; do not replace primary conclusion
+   income_group  post estimate_pct     se_pp ci_lower_pct ci_upper_pct n_min
+         <char> <int>        <num>     <num>        <num>        <num> <int>
+1:          Low     0     26.71034 0.9805347     24.78130     28.63939  3781
+2:          Low     1     28.58113 1.0923399     26.43461     30.72764  3150
+3:         High     0     33.70459 0.7127625     32.30426     35.10492  5074
+4:         High     1     34.38620 0.9005174     32.61604     36.15636  3925
+   n_max                                                            note
+   <int>                                                          <char>
+1:  3855 Rubin pooled unadjusted survey levels; N is range across10draws
+2:  3198 Rubin pooled unadjusted survey levels; N is range across10draws
+3:  5136 Rubin pooled unadjusted survey levels; N is range across10draws
+4:  3950 Rubin pooled unadjusted survey levels; N is range across10draws

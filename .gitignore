@@ -1,0 +1,10 @@
+work/
+.venv/
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+*.rds
+.DS_Store
+.env
+.env.*
